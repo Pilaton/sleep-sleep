@@ -2,6 +2,12 @@
 
 A tiny and simple JavaScript code execution delay library.
 
+## Table of Contents
+
+- [Install](#install)
+- [Usage](#usage)
+- [API](#api)
+
 ## Install
 
 Step 1:
