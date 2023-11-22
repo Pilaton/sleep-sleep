@@ -1,7 +1,7 @@
 # sleep-sleep ⏱️
 
 A tiny and simple JavaScript code execution delay library.  
-**0.35 kB!**
+**0.35 kB!** 🚀
 
 ## Table of Contents
 
