@@ -1,0 +1,48 @@
+{
+  "name": "sleep-sleep",
+  "version": "0.1.0",
+  "description": "Allows you to suspend code execution for a specified time. Or for a random range of time.",
+  "keywords": [
+    "sleep",
+    "delay",
+    "wait",
+    "promise",
+    "timer",
+    "setTimeout"
+  ],
+  "bugs": {
+    "url": "https://github.com/pilaton/sleep-sleep/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pilaton/sleep-sleep.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Pilaton",
+    "email": "dev@pilaton.com",
+    "url": "https://pilaton.com"
+  },
+  "type": "module",
+  "main": "build/sleep.cjs.js",
+  "module": "build/sleep.esm.mjs",
+  "types": "build/sleep.d.ts",
+  "files": [
+    "build/"
+  ],
+  "scripts": {
+    "prebuild": "rimraf build",
+    "build": "rollup --config"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.5.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.2"
+  }
+}
