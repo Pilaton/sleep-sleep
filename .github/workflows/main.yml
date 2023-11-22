@@ -24,15 +24,19 @@ jobs:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
 
+        if: ${{ steps.release.outputs.release_created }}
       - name: Install pnpm
         run: npm install -g pnpm
 
+        if: ${{ steps.release.outputs.release_created }}
       - name: Install dependencies
         run: pnpm install
 
+        if: ${{ steps.release.outputs.release_created }}
       - name: Build package
         run: pnpm run build
 
+        if: ${{ steps.release.outputs.release_created }}
       - name: Publish to npm
         run: pnpm publish --no-git-checks
         env:
