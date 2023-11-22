@@ -1,12 +1,17 @@
 # sleep-sleep ⏱️
 
-A tiny and simple JavaScript code execution delay library.
+A tiny and simple JavaScript code execution delay library.  
+**0.35 kB!**
 
 ## Table of Contents
 
-- [Install](#install)
-- [Usage](#usage)
-- [API](#api)
+- [sleep-sleep ⏱️](#sleep-sleep-️)
+  - [Table of Contents](#table-of-contents)
+  - [Install](#install)
+  - [Usage](#usage)
+    - [API](#api)
+      - [minMs](#minms)
+      - [maxMs](#maxms)
 
 ## Install
 
