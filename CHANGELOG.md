@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/Pilaton/sleep-sleep/compare/v1.0.3...v1.0.4) (2023-11-22)
+
+
+### 🛠️ Bug Fixes
+
+* github workflows ([0ba4af9](https://github.com/Pilaton/sleep-sleep/commit/0ba4af94507344cd6ee394a7f742f3685038a056))
+
 ## [1.0.3](https://github.com/Pilaton/sleep-sleep/compare/v1.0.2...v1.0.3) (2023-11-22)
 
 
