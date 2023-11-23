@@ -24,9 +24,11 @@
     "url": "https://pilaton.com"
   },
   "type": "module",
-  "main": "build/sleep.cjs.js",
-  "module": "build/sleep.esm.mjs",
-  "types": "build/sleep.d.ts",
+  "exports": {
+    "require": "./build/sleep.cjs.js",
+    "import": "./build/sleep.esm.mjs",
+    "types": "./build/sleep.d.ts"
+  },
   "files": [
     "build/"
   ],
