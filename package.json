@@ -25,9 +25,9 @@
   },
   "type": "module",
   "exports": {
+    "types": "./build/sleep.d.ts",
     "import": "./build/sleep.esm.mjs",
-    "require": "./build/sleep.cjs.js",
-    "types": "./build/sleep.d.ts"
+    "require": "./build/sleep.cjs.js"
   },
   "files": [
     "build/"
