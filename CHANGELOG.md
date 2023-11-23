@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/Pilaton/sleep-sleep/compare/v1.0.5...v1.0.6) (2023-11-23)
+
+
+### 🛠️ Bug Fixes
+
+* package.json exports config ([c156f66](https://github.com/Pilaton/sleep-sleep/commit/c156f669c218a8006358c21e3f7ac9a16c6e5b76))
+
 ## [1.0.5](https://github.com/Pilaton/sleep-sleep/compare/v1.0.4...v1.0.5) (2023-11-22)
 
 
