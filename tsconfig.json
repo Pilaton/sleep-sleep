@@ -11,5 +11,5 @@
     "noEmit": true,
     "moduleResolution": "nodenext"
   },
-  "exclude": ["./build"]
+  "include": ["src"]
 }

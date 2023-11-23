@@ -12,6 +12,7 @@ const rollupConfig = {
       sourcemap: true,
     },
     {
+      exports: 'default',
       file: 'build/sleep.esm.mjs',
       format: 'es',
       sourcemap: true,
