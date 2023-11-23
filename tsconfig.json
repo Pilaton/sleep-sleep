@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
+    "module": "NodeNext",
     "declaration": true,
     "sourceMap": true,
     "outDir": "./build",
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true
+    "noEmit": true,
+    "moduleResolution": "nodenext"
   },
-
-  "include": ["src"]
+  "exclude": ["./build"]
 }
