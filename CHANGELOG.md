@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/Pilaton/sleep-sleep/compare/v1.0.6...v1.0.7) (2023-11-23)
+
+
+### 📝 Docs
+
+* edit ([925167e](https://github.com/Pilaton/sleep-sleep/commit/925167e7eb532602115e2f6e17771fd1c6f59736))
+
 ## [1.0.6](https://github.com/Pilaton/sleep-sleep/compare/v1.0.5...v1.0.6) (2023-11-23)
 
 
