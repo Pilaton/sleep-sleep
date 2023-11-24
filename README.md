@@ -15,7 +15,7 @@ A tiny and simple JavaScript code execution delay library.
 Step 1:
 
 ```bash
-npm install sleep
+npm install sleep-sleep
 ```
 
 Step 2:
