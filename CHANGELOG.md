@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/Pilaton/sleep-sleep/compare/v1.1.2...v1.1.3) (2023-11-24)
+
+
+### 📝 Docs
+
+* fixed install command ([3425888](https://github.com/Pilaton/sleep-sleep/commit/3425888d51cbc4dd600e1d500cbbbcf40e2a06c7))
+
 ## [1.1.2](https://github.com/Pilaton/sleep-sleep/compare/v1.1.1...v1.1.2) (2023-11-23)
 
 
