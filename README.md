@@ -1,14 +1,11 @@
-# sleep-sleep ⏱️
+# sleep-sleep 😴 <!-- omit in toc -->
 
 A tiny and simple JavaScript code execution delay library.  
 **0.35 kB!** 🚀 and **No dependencies** 🎉
 
-- [sleep-sleep ⏱️](#sleep-sleep-️)
-  - [Install](#install)
-  - [Usage](#usage)
-    - [API](#api)
-      - [minMs](#minms)
-      - [maxMs](#maxms)
+- [Install](#install)
+- [Usage](#usage)
+- [API](#api)
 
 ## Install
 
@@ -51,28 +48,23 @@ You can also use a random delay between the minimum and maximum time value:
 ```js
 import sleep from 'sleep-sleep';
 
-async function randomDelayFunction() {
+async function demoFunction() {
   console.log('Random delay...');
   await sleep(1000, 5000); // Random delay between 1 and 5 seconds
   console.log('Delay completed after e.g. 3.47 seconds.');
 }
 
-randomDelayFunction();
+demoFunction();
 ```
 
 Random delay is very useful for example in [Puppeteer](https://pptr.dev/) and [Playwright](https://playwright.dev/) related projects, where a random pause between actions gives your automation a more human-like 👨‍🌾 appearance.
 
-### API
+## API
 
 ```js
 sleep(minMs: number, maxMs?: number): Promise<void>
 ```
 
-#### minMs
+`minMs`: Minimum number of milliseconds for delay.
 
-Minimum number of milliseconds for delay.
-
-#### maxMs
-
-(optional)  
-The maximum number of milliseconds for the delay. If not specified, the delay will be fixed and equal to `minMs`
+`maxMs` (optional): The maximum number of milliseconds for the delay. If not specified, the delay will be fixed and equal to `minMs`
