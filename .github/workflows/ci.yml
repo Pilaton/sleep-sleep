@@ -17,16 +17,16 @@ jobs:
       matrix:
         node-version: [18.x, 21.x]
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@main
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node
+        uses: actions/setup-node@main
         with:
           node-version: ${{ matrix.node-version }}
           cache: pnpm
 
       - name: Install pnpm
-        uses: pnpm/action-setup
+        uses: pnpm/action-setup@master
         with:
           version: latest
 
