@@ -11,11 +11,11 @@
     "setTimeout"
   ],
   "bugs": {
-    "url": "https://github.com/pilaton/sleep-sleep/issues"
+    "url": "https://github.com/Pilaton/sleep-sleep/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pilaton/sleep-sleep.git"
+    "url": "https://github.com/Pilaton/sleep-sleep.git"
   },
   "license": "MIT",
   "author": {
