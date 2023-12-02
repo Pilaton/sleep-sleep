@@ -3,6 +3,10 @@
 A tiny and simple JavaScript code execution delay library.  
 **0.35 kB!** 🚀 and **No dependencies** 🎉
 
+Under the hood, setTimeout is used, so it's simple and reliable.
+
+## Table of contents <!-- omit in toc -->
+
 - [Install](#install)
 - [Usage](#usage)
 - [API](#api)
