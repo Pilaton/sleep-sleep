@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/Pilaton/sleep-sleep/compare/v1.1.4...v1.1.5) (2023-12-02)
+
+
+### Bug Fixes
+
+* **ci:** release to npm ([2a0a64e](https://github.com/Pilaton/sleep-sleep/commit/2a0a64ee3cdd0f789d3373db19620df192d88819))
+
 ## [1.1.4](https://github.com/Pilaton/sleep-sleep/compare/v1.1.3...v1.1.4) (2023-12-02)
 
 
