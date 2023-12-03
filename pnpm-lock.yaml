@@ -26,6 +26,12 @@ devDependencies:
   eslint:
     specifier: ^8.54.0
     version: 8.54.0
+  eslint-define-config:
+    specifier: ^2.0.0
+    version: 2.0.0
+  globals:
+    specifier: ^13.23.0
+    version: 13.23.0
   rimraf:
     specifier: ^5.0.5
     version: 5.0.5
@@ -928,6 +934,11 @@ packages:
   /escape-string-regexp@4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
+    dev: true
+
+  /eslint-define-config@2.0.0:
+    resolution: {integrity: sha512-M8ao9mAE35BGwjZeT8ZlsRA42wcJHWS29Avd0qfeclRXig6uTnGXcaO7UxVyFzUA1VJtxeV/acw4KrhJA3JqxQ==}
+    engines: {node: '>=18.0.0', npm: '>=9.0.0', pnpm: '>=8.6.0'}
     dev: true
 
   /eslint-scope@7.2.2:
