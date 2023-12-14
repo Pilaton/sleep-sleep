@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.6](https://github.com/Pilaton/sleep-sleep/compare/v1.1.5...v1.1.6) (2023-12-14)
+
+
+### Bug Fixes
+
+* Fixed errors after checking with the new ESLint config ([c848efe](https://github.com/Pilaton/sleep-sleep/commit/c848efe366c9cab3ce1c6aeb8e8c95fb1b5d6d17))
+* **lint:** Changed the publish command ([48748c9](https://github.com/Pilaton/sleep-sleep/commit/48748c960e0362646ae2243cba8f0aed6a426670))
+
 ## [1.1.5](https://github.com/Pilaton/sleep-sleep/compare/v1.1.4...v1.1.5) (2023-12-02)
 
 
