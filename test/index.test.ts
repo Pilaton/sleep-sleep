@@ -1,6 +1,6 @@
-import { test } from 'node:test';
+/* eslint-disable @typescript-eslint/no-floating-promises */
 import assert from 'node:assert/strict';
-
+import { test } from 'node:test';
 import sleep from '../src/sleep.js';
 
 test('sleep waits for the specified time (1 second)', async () => {

@@ -22,12 +22,12 @@ const getRandomNumberInRange = (min: number, max: number): number => {
  * @returns {Promise<void>} A promise that resolves after the delay.
  * @throws Will throw an error if minMs is negative.
  */
-export default function sleep(minMs: number, maxMs?: number): Promise<void> {
+export default async function sleep(minMs: number, maxMs?: number): Promise<void> {
   if (minMs < 0) {
     throw new Error('The minimum milliseconds must not be negative.');
   }
 
   const delay = maxMs ? getRandomNumberInRange(minMs, maxMs) : minMs;
 
-  return new Promise((resolve) => setTimeout(resolve, delay));
+  await new Promise((resolve) => setTimeout(resolve, delay));
 }
