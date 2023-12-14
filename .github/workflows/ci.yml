@@ -1,4 +1,4 @@
-name: Release and publish to npm
+name: CI
 
 on:
   push:
@@ -36,8 +36,8 @@ jobs:
         run: pnpm run test
 
   release-please-action:
-    runs-on: ubuntu-latest
     needs: ['test']
+    runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@main
         id: release-action
@@ -47,9 +47,9 @@ jobs:
       is-release-created: ${{ steps.release-action.outputs.release_created }}
 
   release:
-    runs-on: ubuntu-latest
     needs: ['release-please-action']
-    if: ${{ needs.release-please-action.outputs.is-release-created }}
+    if: ${{ needs.release-please-action.outputs.is-release-created == 'true' }}
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
 
@@ -70,6 +70,7 @@ jobs:
         run: pnpm run build
 
       - name: Publish to npm
-        run: pnpm publish --no-git-checks --provenance --access public
+        run: pnpm publish --access public --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true
