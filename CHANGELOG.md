@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Pilaton/sleep-sleep/compare/v1.1.6...v1.2.0) (2024-05-06)
+
+
+### Features
+
+* Update packages ([5ba8b17](https://github.com/Pilaton/sleep-sleep/commit/5ba8b179e177c45511553f3e120813ca10a7c4cd))
+
 ## [1.1.6](https://github.com/Pilaton/sleep-sleep/compare/v1.1.5...v1.1.6) (2023-12-14)
 
 
