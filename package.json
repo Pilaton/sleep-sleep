@@ -1,6 +1,6 @@
 {
   "name": "sleep-sleep",
-  "version": "1.1.6",
+  "version": "1.2.0",
   "description": "Allows you to suspend code execution for a specified time. Or for a random range of time.",
   "keywords": [
     "sleep",
