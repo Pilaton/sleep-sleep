@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/Pilaton/sleep-sleep/compare/v1.2.0...v1.3.0) (2024-05-29)
+
+
+### Features
+
+* Changed Eslint to Biome ([92894be](https://github.com/Pilaton/sleep-sleep/commit/92894be501cc319358e28809a4bcd5c12480e766))
+
 ## [1.2.0](https://github.com/Pilaton/sleep-sleep/compare/v1.1.6...v1.2.0) (2024-05-06)
 
 
