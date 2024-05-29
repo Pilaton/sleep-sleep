@@ -36,21 +36,19 @@
     "prebuild": "rimraf build",
     "build": "rollup --config",
     "check": "tsc --noEmit",
-    "lint": "eslint .",
+    "lint:dryRun": "biome check .",
     "test": "c8 tsx test/index.test.ts"
   },
   "devDependencies": {
-    "@pilaton/eslint-config-base": "^1.3.0",
+    "@biomejs/biome": "^1.7.3",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
-    "@types/node": "^20.12.8",
+    "@types/node": "^20.12.13",
     "c8": "^9.1.0",
-    "eslint": "^8.57.0",
-    "eslint-define-config": "^2.1.0",
-    "rimraf": "^5.0.5",
-    "rollup": "^4.17.2",
+    "rimraf": "^5.0.7",
+    "rollup": "^4.18.0",
     "tslib": "^2.6.2",
-    "tsx": "^4.9.3",
+    "tsx": "^4.11.0",
     "typescript": "^5.4.5"
   }
 }
