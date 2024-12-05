@@ -1,4 +1,4 @@
-# sleep-sleep 😴 <!-- omit in toc -->
+# sleep-sleep ⏰ <!-- omit in toc -->
 
 A tiny and simple JavaScript code execution delay library.  
 **0.35 kB!** 🚀 and **No dependencies** 🎉
