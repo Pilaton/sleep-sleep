@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/Pilaton/sleep-sleep/compare/v1.3.1...v1.3.2) (2024-12-05)
+
+
+### Bug Fixes
+
+* **ci:** ci ([7f67e2f](https://github.com/Pilaton/sleep-sleep/commit/7f67e2f432cdd9ad44d200d2fa94894de27a3c37))
+
 ## [1.3.1](https://github.com/Pilaton/sleep-sleep/compare/v1.3.0...v1.3.1) (2024-12-05)
 
 
