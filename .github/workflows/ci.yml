@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x, 21.x]
+        node-version: [18.x, 22.x]
     steps:
       - uses: actions/checkout@main
 
@@ -39,7 +39,7 @@ jobs:
     needs: ['test']
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@main
+      - uses: googleapis/release-please-action@main
         id: release-action
         with:
           release-type: node
